@@ -52,9 +52,7 @@ ctrl - c
 
 ## Project Structure 
 
-~~~
-Example_webapp_shiny_python
-
+```
 ├── data
 ├── images
 ├── notebooks
@@ -66,3 +64,4 @@ Example_webapp_shiny_python
 ├── aux_params.py
 ├── requirements.txt
 └── README.md
+```
