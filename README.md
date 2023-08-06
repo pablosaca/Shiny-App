@@ -2,7 +2,9 @@
 
 This repo consist of web app designed and developed using [shiny for python](https://shiny.rstudio.com/py/) library by RStudio. 
 
-In this project we have designed a web application to show the project structure for a machine learning model deployed using shiny. This project features a machine learning model that has been trained to detect diabetic patient based on certain input features such as `Age`, `Gender`, `Polyuria`, `Polydispia`, `Partial paresis`, `Sudden weight loss`, `Irritability`, `Delayed healing`, `Alopecia`, and  `Itching`. This application acts as an interface for a user to predict diabetes based on selecting top 10 input features. The machine learning model was built using various features of scikit learn:
+In this project we have designed a web application to show the project structure for a deep learning model deployed using shiny.
+
+The deep learning model was built using Tensorflow/Keras:
 
 * Convolutional Neural Netwok
 * Min Max Scaler 
@@ -39,7 +41,7 @@ shiny run app.py
 ```
 
 and navigate to `http://127.0.0.1:8000/` to see it live. On this page, a user can then submit different features from UI into the drop down and slider 
-input field and get the predictions from the trained model in the form of probability of diabetes.
+input field and get the predictions from the trained model in the form of probability of annual earning more than 50k.
 
 [![Alt text](images/uned_image.png)](https://www.youtube.com/watch?v=oTc1yVZlrIU&t=4s)
 
