@@ -2,7 +2,7 @@
 
 This repo consist of web app designed and developed using [shiny for python](https://shiny.rstudio.com/py/) library by RStudio. 
 
-In this project we have designed a web application to show the project structure for a deep learning model deployed using shiny.
+A web application to show the project structure for a deep learning model deployed using shiny has been developed.
 
 The deep learning model was built using Tensorflow/Keras:
 
