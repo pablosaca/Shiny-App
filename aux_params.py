@@ -16,13 +16,13 @@ normalizer = joblib.load(NORM_PATH)
 
 
 def user_input_select():
-    return ui.panel_sidebar(ui.input_numeric("age", "AGE", age["value"], min=age["min"], max=age["max"]),
+    return ui.panel_sidebar(ui.input_slider("age", "AGE", min=age["min"], max=age["max"], value=age["value"]),
                             ui.input_select("workclass", "WORKCLASS", workclass),
                             ui.input_select("education", "EDUCATION", education),
-                            ui.input_select("marital_status", "MARITAL STATUS", marital_status),
+                            ui.input_radio_buttons("marital_status", "MARITAL STATUS", marital_status),
                             ui.input_select("occupation", "OCCUPATION", occupation),
                             ui.input_select("relationship", "RELATIONSHIP", relationship),
-                            ui.input_select("race", "RACE", race),
+                            ui.input_radio_buttons("race", "RACE", race),
                             ui.input_select("gender", "GENDER", gender),
                             ui.input_numeric("capital_gain", "CAPTITAL GAIN",
                                              cap_gain["value"], min=cap_gain["min"], max=cap_gain["max"]),

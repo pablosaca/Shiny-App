@@ -84,8 +84,8 @@ native_country = {'United-States': 'United-States',
                   'Holand-Netherlands': 'Holand-Netherlands'}
 
 age = {"value": 25,
-       "min": 17,
-       "max": 100}
+       "min": 16,
+       "max": 65}
 
 cap_gain = {"value": 1080,
             "min": 0,
@@ -96,8 +96,8 @@ cap_loss = {"value": 95,
             "max": 5000}
 
 hp_week = {"value": 40,
-           "min": 1,
-           "max": 99}
+           "min": 8,
+           "max": 48}
 
 columns_table = ["age",
                  "workclass",
