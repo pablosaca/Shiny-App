@@ -12,7 +12,7 @@ from _utils import columns_table
 style = css(font_weight="bold", color="yellow")
 
 app_ui = ui.page_fluid(
-    {"style": "background-color: rgba(255, 128, 128, 0.25)"},
+    {"style": "background-color: rgba(176, 242, 194, 0.25)"},
     ui.img(src="uned_image.png", _add_ws=False, style="width: 200px; height: 100px"),
     ui.markdown(
         """
